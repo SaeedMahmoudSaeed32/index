@@ -1,0 +1,145 @@
+body{background-image: url("back.jpg"); color: wheat}
+h1
+{
+    text-align: center;
+    color: rgb(192, 22, 107);
+    font-size: 30px;
+}
+.div1
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.listdiv
+{
+    width: 30%;
+    padding: 0 1%;
+    margin: 5px;
+}
+li a
+{
+    text-align: center;
+    display: block;
+    padding: 15px 20px ;
+    text-decoration: none;
+    background-color: sandybrown;
+    font-size: 20px;
+}
+li a:hover
+{
+    background-color: rgb(92, 146, 137);
+}
+.ul1
+{
+    display: none;
+}
+.ul1 a
+{
+    background-color: cyan;
+}
+.ul2
+{
+    display: none;
+}
+.ul2 a
+{
+    background-color: sandybrown;
+}
+.listdiv :hover .ul1{
+    display: block;
+}
+.listdiv :hover .ul2{
+    display: block;
+}
+
+.div2
+{
+    background-color: hsla(108, 61%, 41%, 0.253) ;
+    width: 90%;
+    margin: auto;
+    border-radius: 3%;
+    position: relative;
+}
+img
+{
+    margin: 5px;
+    border: 2px dashed black;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+img:hover
+{
+    opacity: 4;
+}
+.div3
+{
+    width: 70.7%;
+    position: absolute;
+    top: 0%;
+    left: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.indiv
+{
+    width: 40%;
+    padding: 0 1%;
+    margin: 0 2px;
+    text-align: center;
+}
+h2
+{
+    border: 2px solid black;
+    color: cornflowerblue;
+}
+h3
+{
+    border: 2px dashed black;
+    color: lightcoral;
+}
+.none
+{
+    border: hidden;
+}
+.div4
+{
+    width: 90%;
+    margin: auto;
+    background-color: lightslategrey;
+    text-align: center;
+}
+.h33
+{
+    background-color: rgb(42, 7, 58);
+}
+.h33 a{text-decoration: none; color: powderblue;}
+
+@media screen and (max-width:1300px) {
+    h1{color: greenyellow;}
+    .div1{flex-direction: column;}
+    .listdiv{width: 100%;}
+    .div2{height: 1400px;}
+    .imgdiv{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    img{width: 300px;height: 300px; opacity: 3;}
+    .div3{
+        width: 90%;
+        position: absolute;
+         top: 300px;
+         left: 5%;
+         flex-direction: column;
+    }
+    .indiv{width: 100%; padding: 1%;}
+}
